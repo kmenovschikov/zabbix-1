@@ -80,4 +80,9 @@
 5. sudo nano /etc/zabbix/zabbix_agentd.conf (редактируем Server=)
 6. sudo systemctl restart zabbix-agent
 
+<img width="2559" height="1134" alt="2026-05-09_11-22-56" src="https://github.com/user-attachments/assets/5c365e9e-c238-4e68-a3cb-3ce93d34d673" />  
+<br>
+<img width="2559" height="1133" alt="2026-05-09_11-23-14" src="https://github.com/user-attachments/assets/d7bc58f8-1105-4363-8f62-4bb635dc4553" />
+<br>
+<img width="2559" height="1135" alt="2026-05-09_11-23-27" src="https://github.com/user-attachments/assets/a50fdca8-6f2d-4eb2-9acb-0b5e78a27f78" />
 
