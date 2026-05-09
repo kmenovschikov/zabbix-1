@@ -47,8 +47,9 @@
 7. sudo apt install zabbix-server-pgsql zabbix-frontend-php php8.2-pgsql zabbix-apache-conf zabbix-sql-scripts
 8. sudo -u postgres createuser --pwprompt zabbix
 9. sudo -u postgres createdb -O zabbix zabbix
-10. sudo nano /etc/zabbix/zabbix_server.conf (отредактировать DBPassword)
-11. systemctl restart zabbix-server apache2
+10. zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix
+11. sudo nano /etc/zabbix/zabbix_server.conf (отредактировать DBPassword)
+12. systemctl restart zabbix-server apache2
 
 <img width="2557" height="1134" alt="2026-05-09_09-01-19" src="https://github.com/user-attachments/assets/f267430e-b194-45df-83e2-8b541e0d45b3" />
 
