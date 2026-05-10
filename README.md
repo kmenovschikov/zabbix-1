@@ -34,7 +34,19 @@
 #### Требования к результату
 - [ ] Прикрепите в файл README.md скриншот страницы шаблона с названием «Задание 1»
 
- ---
+### Решение
+
+~~~
+UserParameter=netology_cpu,top -bn1 | grep "Cpu(s)" | awk '{print $2}'
+UserParameter=netology_ram,free | grep Mem | awk '{print $4/$2 * 100.0}'
+~~~
+
+<img width="2559" height="1134" alt="image" src="https://github.com/user-attachments/assets/bf55325a-2a93-492d-a12b-148426b2a8a1" />
+<br>
+<img width="2558" height="1135" alt="image" src="https://github.com/user-attachments/assets/5c89dd05-b9d7-46ba-9bb3-30af3a5f45ad" />
+
+
+---
 
 ### Задание 2
 Добавьте в Zabbix два хоста и задайте им имена <фамилия и инициалы-1> и <фамилия и инициалы-2>. Например: ivanovii-1 и ivanovii-2.
@@ -64,7 +76,11 @@
 #### Требования к результату
 - [ ] Прикрепите в файл README.md скриншот страницы хостов, где будут видны привязки шаблонов с названиями «Задание 2-3». Хосты должны иметь зелёный статус подключения
 
- ---
+### Решение
+
+<img width="2559" height="1136" alt="image" src="https://github.com/user-attachments/assets/bc16b9af-6e84-4e5a-af80-4b2120e49b11" />
+
+---
 
 ### Задание 4
 Создайте свой кастомный дашборд.
@@ -77,5 +93,10 @@
 #### Требования к результату
 - [ ] Прикрепите в файл README.md скриншот дашборда с названием «Задание 4»
 
- ---
+### Решение
+
+<img width="2559" height="1134" alt="image" src="https://github.com/user-attachments/assets/479880af-1040-49c7-ad90-9e58b7e39afb" />
+
+
+---
 
